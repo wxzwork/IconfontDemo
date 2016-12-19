@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8117D4841D23963D00F00B0D"
+               BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;.app"
+               BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;"
+               ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8117D49D1D23963D00F00B0D"
+               BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;Tests.xctest"
+               BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;Tests"
+               ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8117D4A81D23963D00F00B0D"
+               BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;UITests.xctest"
+               BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;UITests"
+               ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8117D4841D23963D00F00B0D"
+            BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;.app"
+            BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;"
+            ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8117D4841D23963D00F00B0D"
+            BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;.app"
+            BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;"
+            ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8117D4841D23963D00F00B0D"
+            BuildableName = "iconfont&#x7684;&#x4f7f;&#x7528;.app"
+            BlueprintName = "iconfont&#x7684;&#x4f7f;&#x7528;"
+            ReferencedContainer = "container:iconfont&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

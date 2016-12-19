@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TBCityIconFont.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+   //iconfont图标
+    [TBCityIconFont setFontName:@"iconfont"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    _window.rootViewController = nav;
     // Override point for customization after application launch.
     return YES;
 }
